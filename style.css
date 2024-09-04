@@ -6,15 +6,22 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.header {
+.hero{
     background-color: #1F2937;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+}
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 100px 0px 100px;
+}
+.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 .header-links {
     display: flex;
@@ -24,4 +31,40 @@ body {
 a {
     text-decoration: none;
     color: rgb(185, 185, 185);
+}
+.con-one{
+    display: flex;
+    flex-direction: row;
+    padding: 75px 0px 75px 0px;
+    gap: 30px;
+}
+.con-one-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.con-one-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.con-one-one .sign-up {
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    max-width: 100px;
+}
+.con-one-one {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+.con-one-two{
+    display: flex;
+    flex: 2;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
 }
