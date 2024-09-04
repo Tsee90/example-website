@@ -1,5 +1,27 @@
-* {
+body {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+}
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
 }
