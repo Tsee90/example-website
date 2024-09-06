@@ -46,6 +46,7 @@ a {
     justify-content: center;
     max-width: 900px;
 }
+
 .con-one-title{
     color: white;
     font-size: 48px;
@@ -72,9 +73,12 @@ a {
 .con-one-two{
     display: flex;
     flex: 1;
-    background-color: gray;
     justify-content: center;
     align-items: center;
+}
+img {
+    max-width: 100%;
+    max-height: auto;
 }
 .con-two {
     display: flex;
