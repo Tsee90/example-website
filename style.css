@@ -113,6 +113,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+.con-two-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-text {
+    padding: 5px;
+    text-align: center;
 }
 .con-three{
     display: flex;
@@ -183,9 +193,3 @@ a {
     padding: 15px;
 }
 
-.con-two-card img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 12px;
-}
